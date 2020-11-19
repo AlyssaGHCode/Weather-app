@@ -19,6 +19,84 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div id="weather" class="weather-container">
+          <ul class="header-cities">
+            <li class="header-city">
+              <a href="/Barcelona">Barcelona</a></li>
+            <li class="header-city">
+              <a href="/NewYork">NewYork</a></li>
+            <li class="header-city">
+              <a href="/sydney">Sydney</a></li>
+          </ul>
+          <div class="weather-search-box">
+            <form class="search-form" id="search-form">
+              <div class="row">
+                <input type="search" placeholder="Enter City" id="city-input">
+                <form id="city-search">
+                  <input type="submit" value="Search" class="btn btn-primary" />
+                  <div class="col-sm-3">
+                    <button class="btn btn-success w-1" id="current-location-button">
+                      Current
+                    </button>
+                  </div>
+                  <h1 id="city">Austin</h1>
+                </form>
+              </div>
+              <span id="date"></span>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <span class="temperature" id="temperature">90</span>
+                      <span class="units">
+                        <a href="#" id="celsius-link">°C</a> |
+                        <a href="#" id="fahrenheit-link">°F</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Sunday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Monday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Tuesday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Wednesday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Thursday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Friday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="future-forecast-day">Saturday</div>
+                    <div class="future-forecast-icon">☀</div>
+                    <div class="future-forecast-temp"> 90°</div>
+                  </div>
+                </div>
     <script src="script.js"></script>
   </body>
 </html>
