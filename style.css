@@ -37,7 +37,7 @@ h1 {
 }
 .col-sm-1 {
   flex: 0 0 10.666667%;
-  max-width: 25%;
+  max-width: 30%;
 }
 .current-forecast-image {
   text-align: center;
