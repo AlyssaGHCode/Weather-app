@@ -1,4 +1,64 @@
-h1 {
+.header-city {
+  list-style: none;
+  display: inline;
   text-align: center;
-  color: red;
+  padding-left: 50px;
+}
+form {
+  float: center;
+  padding-left: 120px;
+}
+
+h1 {
+  font-size: 30px;
+  text-emphasis: bold;
+  padding-left: 60px;
+  list-style: none;
+}
+.date {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.temperature {
+  text-align: left;
+  text-emphasis: bold;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0 0 10px;
+  padding: left 10px;
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -25px;
+}
+.col-sm-1 {
+  flex: 0 0 10.666667%;
+  max-width: 25%;
+}
+.current-forecast-image {
+  text-align: center;
+}
+
+.future-forecast-day {
+  text-align: center;
+  font-size: 10px;
+  line-height: 10px;
+}
+.future-forecast-icon {
+  text-align: center;
+}
+.future-forecast-temp {
+  text-align: center;
+}
+
+.container {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  margin: 25px 0;
+  max-width: 700px;
+  padding: 30px 30px 30px 30px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
