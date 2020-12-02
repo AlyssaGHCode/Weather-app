@@ -1,6 +1,5 @@
 function formatDate(timestamp) {
   let date = new Date(timestamp);
-
   let days = [
     "Sunday",
     "Monday",
@@ -24,7 +23,6 @@ function formatHours(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-
   return `${hours}:${minutes}`;
 }
 function displayForecast(response) {
