@@ -1,19 +1,53 @@
-.header-city {
-  list-style: none;
-  display: inline;
-  text-align: center;
-  padding-left: 50px;
-}
 form {
   float: center;
   padding-left: 120px;
 }
+body {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-h1 {
-  font-size: 30px;
-  text-emphasis: bold;
-  padding-left: 60px;
+.weather-app {
+  margin: 31px auto;
+  background-color: red;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #cbbacc 0%, #2580b3 100%);
+  padding: 41px;
+}
+.container {
+  margin: 20px 0;
+  max-width: 500px;
+  padding: 20px 16px 24px;
+}
+
+li {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 60px;
+  text-emphasis: bold;
+  padding-right: 30px;
 }
 .date {
   font-size: 20px;
@@ -22,10 +56,40 @@ h1 {
   padding-left: 20px;
 }
 
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  color: rgb(135, 135, 135);
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
+.weather-forecast h3 {
+  color: rgb(186, 186, 186);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+.weather-forecast {
+  margin-top: 10px;
+}
+
 .temperature {
   text-align: left;
   text-emphasis: bold;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 50px;
   margin: 0 0 10px;
   padding: left 10px;
@@ -34,29 +98,4 @@ h1 {
   position: relative;
   font-size: 20px;
   top: -25px;
-}
-.col-sm-1 {
-  max-width: 30px;
-  margin: auto;
-}
-.current-forecast-image {
-  text-align: center;
-}
-
-.future-forecast-day {
-  text-align: center;
-  font-size: 10px;
-  line-height: 10px;
-}
-.future-forecast-icon {
-  text-align: center;
-}
-.future-forecast-temp {
-  text-align: center;
-}
-
-.container {
-  margin: 20px 0;
-  max-width: 500px;
-  padding: 20px 16px 24px;
 }
